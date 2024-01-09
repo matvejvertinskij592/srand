@@ -1,0 +1,5 @@
+int main() {
+    srand(time(0));
+    vector<vector<char>> board(5, vector<char>(5, 'O'));
+    int shipRow = rand() % 5;
+    int shipCol = rand() % 5;
